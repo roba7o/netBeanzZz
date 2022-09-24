@@ -28,6 +28,7 @@ public class StarSign {
             number = number - 1;
         }
         newLine();
+        
     }
     
     public static void printSquare(int size) {
@@ -36,7 +37,7 @@ public class StarSign {
             printStars(size);
             line = line -1; 
         }
-        //newLine();
+        
        
     }
 
@@ -44,24 +45,16 @@ public class StarSign {
         while (height > 0) {
             printStars(width);
             height = height - 1;
-            //newLine();
+            
                     
         }
     }
-
-//    public static void printTriangle(int size) {
-//        int size0 = size;
-//        while (size>-1){
-//            printStars(size0-size);
-//            size = size -1;
-//            //newLine();
-//        }
-//    }
     
     public static void printTriangle(int size) {
         for(int i = 0; i<=size; i++){
             printStars(i);
-        }
-            
+        }   
     }
+    
+    
 }
