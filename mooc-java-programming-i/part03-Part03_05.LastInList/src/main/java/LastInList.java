@@ -13,9 +13,9 @@ public class LastInList {
             if (input.equals("")) {
                 break;
             }
-
             list.add(input);
         }
-
+        String lastName = list.get(list.size()-1);
+        System.out.println(lastName);
     }
 }

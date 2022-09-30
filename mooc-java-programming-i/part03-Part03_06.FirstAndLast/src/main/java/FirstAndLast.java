@@ -16,6 +16,11 @@ public class FirstAndLast {
 
             list.add(input);
         }
+        
+        String lastName = list.get(list.size()-1);
+        String firstName = list.get(0);
+        
+        System.out.println(firstName + "\n" + lastName);
 
     }
 }

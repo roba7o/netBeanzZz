@@ -16,6 +16,14 @@ public class OnlyTheseNumbers {
 
             numbers.add(number);
         }
+        
+        int beginning = Integer.valueOf(scanner.nextLine());
+        int end = Integer.valueOf(scanner.nextLine());
+        
+        for (int i = beginning; i<=end; i++){
+            System.out.println(numbers.get(i));
+        }
+
 
     }
 }
